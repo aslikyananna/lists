@@ -1,0 +1,13 @@
+ls = [1, 3, 5, 7]
+def min_max(ls):
+    min_val = max_val = ls[0]
+    for i in ls[1:]:
+        if i < min_val:
+            min_val = i
+        if i > max_val:
+            max_val = i
+    return "max value is: ", max_val, "min value is: ", min_val
+print(min_max(ls))
+
+
+
