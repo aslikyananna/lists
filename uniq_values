@@ -1,0 +1,10 @@
+ls = [1, 3, 5, 7, 8, 8, 5]
+def uniq(ls):
+    set_ls = set(ls)
+    ls_new = list(set_ls)
+    return ls_new
+print(uniq(ls))
+
+
+
+
