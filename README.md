@@ -29,3 +29,4 @@
 14.Write a Python function that takes multiple lists as input and returns a new list containing the elements that are common in all the input lists.
 
 15.Create a Python function that replaces all occurrences of a specific element with another element in a given list.
+16. Find the second min value
