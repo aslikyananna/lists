@@ -1,0 +1,11 @@
+ls = [4, 7, 9, 5, 4, 1]
+ls2 = [4, 8, 9, 66, 6]
+def foo(ls, ls2):
+    ls_new = []
+    for i in ls:
+        if i in ls2 and i not in ls_new:
+            ls_new.append(i)
+        else:
+            continue
+    return ls_new
+print(foo(ls,ls2))
