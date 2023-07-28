@@ -20,7 +20,7 @@
 
 10.Implement a Python function that takes two lists as input and returns a new list containing the common elements between them.
 
-11.Write a Python function to flatten a nested list and return a single-dimensional list.?
+11.Write a Python function to flatten a nested list and return a single-dimensional list.
 
 12.Create a Python function that performs basic list operations like append, insert, remove, pop, and extend.?
 
