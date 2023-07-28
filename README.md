@@ -16,17 +16,17 @@
 
 8.Use list comprehension to create a new list that contains only the even elements from a given list.
 
-9.Write a Python function that sorts a list of integers in ascending order using a custom sorting algorithm (e.g., bubble sort, selection sort).
+9.Write a Python function that sorts a list of integers in ascending order using a custom sorting algorithm (e.g., bubble sort, selection sort). ?
 
 10.Implement a Python function that takes two lists as input and returns a new list containing the common elements between them.
 
-11.Write a Python function to flatten a nested list and return a single-dimensional list.
+11.Write a Python function to flatten a nested list and return a single-dimensional list.?
 
-12.Create a Python function that performs basic list operations like append, insert, remove, pop, and extend.
+12.Create a Python function that performs basic list operations like append, insert, remove, pop, and extend.?
 
-13.Implement a Python function that divides a list into smaller chunks of a specified size and returns a list of lists.
+13.Implement a Python function that divides a list into smaller chunks of a specified size and returns a list of lists.?
 
-14.Write a Python function that takes multiple lists as input and returns a new list containing the elements that are common in all the input lists.
+14.Write a Python function that takes multiple lists as input and returns a new list containing the elements that are common in all the input lists.?
 
 15.Create a Python function that replaces all occurrences of a specific element with another element in a given list.
 
