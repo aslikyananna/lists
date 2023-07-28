@@ -1,0 +1,10 @@
+ls = [4, 7, 9, 5, 4,1]
+# min1 = ls[0]
+# min2  = ls[1]
+# for i in range(len(ls)):
+#     if ls[i] < min2:
+#         if ls[i] < min1:
+#             min1 = ls[i]
+#     else:
+#         min2 = ls[i]
+# print(min2) #--??
