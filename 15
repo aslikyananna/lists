@@ -1,0 +1,6 @@
+def foo(ls, old, new):
+    for i in range(len(ls)):
+        if ls[i] == old:
+            ls[i] = new
+    return ls
+print(foo([1,4,5],4,5))
