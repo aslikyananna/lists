@@ -1,6 +1,0 @@
-ls = [4, 7, 9, 5, 4,1]
-ls_new = [x for x in ls if x % 2 == 0]
-print(ls_new)
-
-
-
