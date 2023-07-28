@@ -1,0 +1,7 @@
+
+
+ls = [[1,2], [6,7,8]]
+ls_new = []
+for i in range(len(ls)):
+    ls_new += ls[i]
+print(ls_new)
