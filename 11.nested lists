@@ -1,4 +1,16 @@
-
+ls = [1,[1,2], [1,2,], "val", (1,2), {1,2,3}]
+ls_new =[]
+for i in range(len(ls)):
+    if type(ls[i]) is list or set or tuple:
+        ls_new.extend(ls[i])
+    elif type(ls[i]) is set:
+            ls_new.extend(ls[i])
+    elif type(ls[i]) is tuple:
+            ls_new.extend(ls[i])
+    else:
+        ls_new.append(ls[i])
+print(ls_new)
+//
 
 ls = [[1,2], [6,7,8]]
 ls_new = []
