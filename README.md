@@ -22,7 +22,7 @@
 
 11.Write a Python function to flatten a nested list and return a single-dimensional list.
 
-12.Create a Python function that performs basic list operations like append, insert, remove, pop, and extend.?
+12.Create a Python function that performs basic list operations like append, insert, remove, pop, and extend.
 
 13.Implement a Python function that divides a list into smaller chunks of a specified size and returns a list of lists.?
 
