@@ -24,7 +24,7 @@
 
 12.Create a Python function that performs basic list operations like append, insert, remove, pop, and extend.
 
-13.Implement a Python function that divides a list into smaller chunks of a specified size and returns a list of lists.?
+13.Implement a Python function that divides a list into smaller chunks of a specified size and returns a list of lists.
 
 14.Write a Python function that takes multiple lists as input and returns a new list containing the elements that are common in all the input lists.?
 
