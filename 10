@@ -1,11 +1,19 @@
+
+ls = [4, 7, 9, 5, 4, 1]
+ls2 = [4, 8, 9, 66, 6, 4,5]
+def foo(ls, ls2):
+    mix = set(ls) & set(ls2)
+    return mix
+print(foo(ls,ls2))
+\\\
 ls = [4, 7, 9, 5, 4, 1]
 ls2 = [4, 8, 9, 66, 6]
 def foo(ls, ls2):
     ls_new = []
     for i in ls:
-        if i in ls2 and i not in ls_new:
+        if i in ls2:
             ls_new.append(i)
-        else:
-            continue
+            ls.remove(i)
+            ls2.remove(i)
     return ls_new
 print(foo(ls,ls2))
