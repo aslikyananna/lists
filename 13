@@ -1,0 +1,6 @@
+def foo(ls, size):
+    new_ls = []
+    for i in range(0, len(ls), size):
+        new_ls.append(ls[i:i+size])
+    return new_ls
+print(foo([1,2,3,8], 4))
