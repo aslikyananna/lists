@@ -1,0 +1,10 @@
+def foo(ls,ls2, index, num):
+    ls.append(num)
+    ls.insert(index, num)
+    ls.remove(num)
+    ls.pop(index)
+    ls.extend(ls2)
+    return ls
+ls = [1,2,3,4]
+ls2 = [5,6]
+print(foo(ls,ls2,2,3))
