@@ -1,0 +1,17 @@
+ls = [6, 5, 9, 2]
+for i in range(len(ls) - 1):
+    for j in range(i,len(ls)):
+        if ls[i] > ls[j]:
+           ls[i], ls[j] = ls[j], ls[i]
+print(ls)
+
+
+ls = [6, 5, 9, 2]
+x = len(ls) - 1
+while x>0:
+    for i in range(x):
+        if ls[i] > ls[i+1]:
+           ls[i], ls[i+1] = ls[i+1], ls[i]
+    x -=1
+
+print(ls)
