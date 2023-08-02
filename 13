@@ -4,3 +4,14 @@ def foo(ls, size):
         new_ls.append(ls[i:i+size])
     return new_ls
 print(foo([1,2,3,8], 4))
+///
+
+ls = [1,2,3,4,45,5,6,7,8,10]
+if len(ls) % 3 == 0:
+    new = [ls[i:i+3] for i in range(0,9,3)]
+    print(new)
+else:
+    new = [ls[i:i + 3] for i in range(0, 9, 3)]
+    ls_new = [ls[-(len(ls)%3):]]
+    new.extend(ls_new)
+    print(new)
